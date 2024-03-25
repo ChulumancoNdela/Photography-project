@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('         imgs/3d-grunge-interior-with-old-wooden-floor.jpg         '); */
+    /* background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    background-color: lightgray; 
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: bisque;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav{
+    font-family: Arial, sans-serif;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    margin-right: 10px; /* Adjust spacing between links */
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: #f0f0f0; /* Background color on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+    color:violet; /* Text color on hover */
+    transform: scale(1.05);
+}
+
+a img {
+    display: block;
+    margin: 30px auto;
+    
+}
+
+footer {
+    background-color: bisque;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: blueviolet;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+
+
+.social-icons a:hover {
+    color: blue; /* change color on hover */
+}
+
+/* Booking Page  */
+
+
+ h1 {
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+} 
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="service"],
+input[type="date"],
+input[type="time"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    transform: scale(1.05);
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+Styles for Required Fields
+input:required {
+    border-color:bisque;
+}
+
+input:required:focus {
+    border-color: bisque;
+} 
+
+
+
+
+/* About Page */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+strong {
+    font-weight: bold;
+}
+.Our-Story,
+.mission-images,
+.goal-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border: bisque;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: bisque;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+
+/* 
+Services page */
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service h2 {
+    font-size: 24px;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.service a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:#007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.service a:hover {
+    transform: scale(1.05);
+}
+
+/* Home Page */
+
+section.hero {
+    text-align: center;
+    padding: 50px 0;
+    /* background-color: #f9f9f9; */
+}
+
+section.hero h2 {
+    margin-bottom: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.hero p {
+    margin-bottom: 30px;
+}
+
+section.hero a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+section.hero a:hover {
+    background-color: #0056b3;
+}
+
+section.gallery {
+    margin-top: 50px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 30%;
+    margin-bottom: 20px;
+}
