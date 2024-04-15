@@ -262,3 +262,65 @@ section.gallery {
     width: 40%;
     margin-bottom: 20px;
 }
+
+/* login page */
+
+
+/* Form container styles */
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 50px;
+}
+
+/* Form header styles */
+.form-container h2 {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Input field styles */
+.input-field {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+/* Submit button styles */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Link styles */
+.form-container p {
+    text-align: center;
+}
+
+.form-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
