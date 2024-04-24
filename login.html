@@ -24,16 +24,21 @@
         </nav>
     </header>
 
-    <div class="form-container" id="loginForm">
-        <h2>Login</h2>
-        <form>
-            <i class="fa-solid fa-user"></i></i><input type="text" placeholder="Username" class="input-field"><i class="fa-solid fa-lock"></i> 
-            <input type="password" placeholder="Password" class="input-field">
-            <button type="submit" class="submit-btn">Login</button>
+    <div class="container">
+        <form action="#">
+          <h2>Login</h2>
+          <label for="username">Username</label>
+          <input type="text" id="username" name="username" required>
+          
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+          
+          <button type="submit">Login</button>
         </form>
-        <p>Don't have an account? <a href="Registration.html" id="createAccount">Create One</a></p>
-    </div>
-    
+        <div class="register">
+          <p>Don't have an account? <a href="Registration.html">Register</a></p>
+        </div>
+      </div>
     
     <footer>
         <div class="Social-icons">
